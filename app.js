@@ -1,9 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-// console.log("hello")
-//  Bsic I/o and Controll Flow
-// q1
-var readlineSync = require("readline-sync");
 // let a:string = readlineSync.question("Enter first number: ");
 // let p:number= Number(a);
 // let b:string = readlineSync.question("Enter second number: ");
@@ -196,8 +192,59 @@ var readlineSync = require("readline-sync");
 // let q:number= Number(b)
 // let res= p**q
 // console.log("The a poerw b is:" + res )
-// q17
-var a = readlineSync.question("Enter Temprature in farenheit");
-var p = Number(a);
-var res = 5 / 9 * (p - 32);
-console.log(" the temp in celcius: " + res);
+// // q17
+// let a:string= readlineSync.question("Enter Temprature in farenheit: ")
+// let p:number= Number(a)
+// let res= 5/9*(p-32)
+// console.log( " the temp in celcius: " + res )
+// q31
+// function factorial(a:number):number {
+//     if ( a <=1 ){
+//         return a
+//     }
+//     else{
+//         return a*factorial(a-1)
+//     }
+// }
+// console.log(factorial(6))
+// q32
+// function nthFibonaccy(n:number):number {
+//     if ( n<=1) {
+//         return n
+//     }
+//     else {
+//         return nthFibonaccy(n-1) + nthFibonaccy(n-2)
+//     }
+// }
+// console.log(nthFibonaccy(7))
+//  
+// q34
+// function powernum(a:number, b:number):number {
+//     if (b===0) {
+//         return 1
+//     }
+//     else {
+//         return a*powernum(a,b-1)
+//     }
+// }
+// console.log(powernum(2,10))
+//  q36
+// let arr:number[]=[3,4]
+// function swap(arr:number[]):void {
+//     let temp= arr[0]
+//     arr[0]= arr[1]
+//     arr[1]= temp
+// }
+// swap(arr)
+// console.log(arr)
+// q38
+// function copyThat(s: string): string {
+//   let r = "";
+//   for (let i = 0; i < s.length; i++) {
+//     r += s[i]; 
+//   }
+//   return r;
+// }
+// let s = "kya hua bhai";
+// let res = copyThat(s);
+// console.log(res); 
