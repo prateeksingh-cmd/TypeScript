@@ -310,6 +310,51 @@ import * as readlineSync from 'readline-sync';
 
 // console.log(res); 
 
+// q12
+// function gcd(a: number, b: number): number {
+//   while (b !== 0) {
+//     const temp = b;
+//     b = a % b;
+//     a = temp;
+//   }
+//   return a;
+// }
+
+// q13
+// function gcd(a: number, b: number): number {
+//   return b === 0 ? a : gcd(b, a % b);
+// }
+
+// function lcm(a: number, b: number): number {
+//   return Math.abs(a * b) / gcd(a, b);
+// }
+
+// q15
+// function isPrime(num: number): boolean {
+//   if (num <= 1) return false;
+
+//   for (let i = 2; i * i <= num; i++) {
+//     if (num % i === 0) {
+//       return false;
+//     }
+//   }
+
+//   return true;
+// }
+
+// console.log(isPrime(7));
+// console.log(isPrime(10));
+
+// q16
+// function AllFactors(num:number):number[] {
+//     let factors:number[]=[];
+//     for(let i=0;i<num;i++){
+//         if(num%i===0){
+//             factors.push(i)
+//         }
+//     }
+//     return factors
+// }
 
 
 
